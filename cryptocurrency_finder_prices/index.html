@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal dos Preços</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="titulo">Consulta dos Preço Díarios</h1>
+    <p id="titulo">Deseja ver o preço de qual moeda?</p>
+    <input type="text" id="currency" placeholder="BTC,USD,LTC">
+    <button id="titulo" onclick="buscaPreco()">Consultar Preço</button>
+
+    <div id="resultado">
+        <p>Resultado abaixo</p>
+    </div>
+
+
+
+    <h2 id="titulo2">Consulta dos Preço por Data</h2>
+    <p id="titulo2">Deseja ver o preço de qual moeda?</p>
+    <input type="text" id="currency2" placeholder="BTC,USD,LTC">
+    <input type="number" id="dia" placeholder="Dia">
+    <input type="number" id="mes" placeholder="Mês">
+    <input type="number" id="ano" placeholder="Ano">
+    <button id="btnConsultar2" onclick="buscaPrecoData()">Consultar Preço</button>
+
+    <div id="resultado2">
+        <p>Resultado abaixo</p>
+    </div>
+
+
+
+
+
+    <footer id="rodape" alt="rodape">Moedas Disponíveis para consulta:
+
+        <p id="pares">
+
+AAVE : Aave |
+ACMFT : AC Milan |
+ADA : Cardano |
+ALLFT : Alliance |
+AMFT : Aston Martin Cognizant |
+ANKR : ANKR |
+ASRFT : AS Roma |
+ATMFT : Fan Token ATM |
+AXS : Axie Infinity |
+BAL : Balancer |
+BAND : Band Protocol |
+BARFT : FC Barcelona |
+BAT : Basic Attention token |
+BCH : Bitcoin Cash |
+BNT : BANCOR |
+BTC : Bitcoin |
+CAIFT : Fan Token CAI |
+CHZ : Chiliz |
+CITYFT : Manchester City FC |
+COMP : Compound |
+CRV : Curve Dao Token |
+DAI : Dai |
+ENJ : Enjin Coin |
+ETH : Ethereum |
+GALFT : Galatasaray |
+GALOFT : Clube Atletico Mineiro |
+GRT : The Graph |
+JUVFT : Juventus |
+KNC : Kyber Network |
+LINK : Chainlink |
+LTC : Litecoin |
+MANA : MANA (Decentraland) |
+MATIC : Polygon |
+MBVASCO01 : Vasco Token |
+MCO2 : Moss Carbon Credit |
+MKR : Maker |
+NAVIFT : Natus Vincere |
+OGFT : OG eSports |
+OMG : Omg Network |
+PAXG : PAX Gold |
+PFLFT : Professional Fighters League |
+PSGFT : Paris Saint-Germain |
+REN : Ren |
+SAUBERFT : Alfa Romeo Racing ORLEN |
+SCCPFT : Corinthians |
+SNX : Synthetix |
+SUSHI : SushiSwap |
+THFT : Team Heretics |
+UNI : Uniswap |
+USDC : USD Coin |
+WBTC : Wrapped Bitcoin |
+WBX : WiBX |
+XRP : XRP |
+YFI : yearn.finance |
+YGG : Yield Guild Games |
+ZRX : 0x |
+
+        </p>
+
+
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+#resultado {
+    background-color: lightblue;
+}
+
+#titulo, #resultado {
+    text-align: center;
+    font-family: 'Lato';
+}
+
+#currency {
+    margin-left: 500px;
+}
+
+
+
+
+
+
+#resultado2 {
+    background-color: lightblue;
+}
+
+#titulo2, #resultado2 {
+    text-align: center;
+    font-family: 'Lato';
+}
+
+#currency2 {
+    margin-left: 500px;
+} 
+
+#pares {
+    font-family: 'Lato';
+}
+
+#rodape {
+    font-family: 'Lato';
+}
